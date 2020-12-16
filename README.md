@@ -1,7 +1,4 @@
-# <img src='readme/eigen-logo.svg' width='400'>
- 
- 
-<h1>Back End Test: Eigen Technologies</h1>
+<h1>Script Reader</h1>
 <h2>Problem: It takes a lot of time to read through documents and find interesting words and accompanying data.</h2>
 <h2>Solution: Build a program that can find interesting words in .txt files and place them into a table along with the documents and sentences that contain them.</h2>
 <br/>
@@ -9,8 +6,8 @@
 <h2>Deployment</h2>
 <br/>
 I have designed the program to work as simply as possible. To run it all you need is Python 3.<br/>
-Use the terminal to enter Eigen_Technologies_Test_James_Darby directory and run the command: python index.py<br/>
-Once completed within Eigen_Technologies_Test_James_Darby there will be interesting_words.csv.<br/>
+Use the terminal to enter Python-Script-Reader directory and run the command: python index.py<br/>
+Once completed within Python-Script-Reader there will be interesting_words.csv.<br/>
 This csv will contain a list of words from the .txt files in the textfiles folder. <br/>
 These words are longer than 8 letters, the table will show their total occurrences, documents containing them and sentences containing them, sometimes the sentence will contain the word twice.<br/>
 I viewed the table in vscode using Excel viewer, however it can be imported to googles sheets.<br/>
