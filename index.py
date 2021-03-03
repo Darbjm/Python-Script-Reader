@@ -12,7 +12,7 @@ EXACT_SENTENCES = 'Sentences containing the word'
 EXACT_DOCUMENTS = 'Documents'
 EXACT_WORD = 'Word'
 
-def open_files_and_run_task():
+def main():
     # search all txt files in textfiles folder, meaning files can be removed and added
     list_of_files = glob.glob('./textfiles/*.txt')
     # loop through each file and read it
@@ -105,4 +105,4 @@ def place_words_in_csv():
         dict_writer.writerows(sorted_words)
 
 if __name__ == "__main__":
-    open_files_and_run_task()
+    main()
